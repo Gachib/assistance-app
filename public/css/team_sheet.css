@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color: #002B5B;
+    background: linear-gradient(0deg, #002B5B 80%, #57C5B6 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background: linear-gradient(0deg, #002B5B 0%, white 10%);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+    text-decoration-style: none;
+    color: #57C5B6;
+}
+
+
+nav{
+    width: 200px;
+}
+
+div#more-info{
+
+
+    float: right;
+    position: absolute;
+    color: white;
+    top: 50px;
+    right: 65px;
+    width: 200px;
+    height: 95px;
+    background-color: white;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    display: none;
+}
+
+div#more-info a{
+    color: #57C5B6;
+    margin-top: 15px;
+}
+
+table{
+    width: 1200px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: auto;
+    width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #57C5B6;
+
+    position: relative;
+}
+
+td{
+    text-align: center;
+    color : #57C5B6;
+    font-size: 18px;
+    height: 65px;
+}
+
+input{
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+input[type = checkbox]{
+    cursor: pointer;
+    transform: scale(1.5);
+    border: 2.5px solid #57C5B6;
+    border-radius: 3px;
+    width: 20px;
+    appearance: none;
+
+}
+
+input[type=checkbox]:checked{
+    background-color: #57C5B6;
+}
+
+input[type = checkbox]:not(:checked){
+    background-color: white;
+    transition: background-color 0.4s;
+}
+
+input[type = checkbox]:checked{
+    background-color: #57C5B6;
+    transition: background-color 0.4s;
+}
+
+th{
+    text-align: center;
+    color : #57C5B6;
+    margin-top: 10px;
+    height: 75px;
+    width: 60px;
+}
+
+table{
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #57C5B6;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+a p {
+    width: 20px;
+    font-size: 15px;
+    display: inline;
+}
+
+select{
+    border-radius: 2px solid #57C5B6;
+    border-color: #57C5B6;
+    font-size: 15px;
+    color: #57C5B6;
+    cursor: pointer;
+
+    height: 30px;
+}
+
+
